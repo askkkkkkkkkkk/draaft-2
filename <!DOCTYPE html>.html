@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sittio Bebe</title>
+<style>
+    @keyframes flying {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+    }
+    h1 {
+        position: relative;
+    }
+    .butterfly {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: flying 4s infinite;
+    }
+</style>
+</head>
+<body>
+    <h1>Sittio Bebe <img src="butterfly.gif" alt="Flying Butterfly" class="butterfly"></h1>
+    <a href="next_page.html">Next Page</a>
+</body>
+</html> 
